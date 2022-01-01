@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-01T15:17:49Z" name="Default suite" finished-at="2022-01-01T15:17:49Z" duration-ms="195">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="MavenCommandPractice.contactCreate()[pri:0, instance:com.crm.maven.MavenCommandPractice@3646a422]" name="contactCreate" class="com.crm.maven.MavenCommandPractice"/>
+        <method signature="MavenCommandPractice1.createOrg()[pri:0, instance:com.crm.maven1.MavenCommandPractice1@5ab956d7]" name="createOrg" class="com.crm.maven1.MavenCommandPractice1"/>
+      </group> <!-- SmokeTest -->
+      <group name="RegressionTest">
+        <method signature="MavenCommandPractice.contactDelete()[pri:0, instance:com.crm.maven.MavenCommandPractice@3646a422]" name="contactDelete" class="com.crm.maven.MavenCommandPractice"/>
+        <method signature="MavenCommandPractice1.deleteOrg()[pri:0, instance:com.crm.maven1.MavenCommandPractice1@5ab956d7]" name="deleteOrg" class="com.crm.maven1.MavenCommandPractice1"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test started-at="2022-01-01T15:17:49Z" name="Default test" finished-at="2022-01-01T15:17:49Z" duration-ms="195">
+      <class name="com.crm.maven1.MavenCommandPractice1">
+        <test-method signature="createOrg()[pri:0, instance:com.crm.maven1.MavenCommandPractice1@5ab956d7]" started-at="2022-01-01T15:17:49Z" name="createOrg" finished-at="2022-01-01T15:17:49Z" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrg -->
+        <test-method signature="deleteOrg()[pri:0, instance:com.crm.maven1.MavenCommandPractice1@5ab956d7]" started-at="2022-01-01T15:17:49Z" name="deleteOrg" finished-at="2022-01-01T15:17:49Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteOrg -->
+      </class> <!-- com.crm.maven1.MavenCommandPractice1 -->
+      <class name="com.crm.maven.MavenCommandPractice">
+        <test-method signature="contactCreate()[pri:0, instance:com.crm.maven.MavenCommandPractice@3646a422]" started-at="2022-01-01T15:17:49Z" name="contactCreate" finished-at="2022-01-01T15:17:49Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactCreate -->
+        <test-method signature="contactDelete()[pri:0, instance:com.crm.maven.MavenCommandPractice@3646a422]" started-at="2022-01-01T15:17:49Z" name="contactDelete" finished-at="2022-01-01T15:17:49Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactDelete -->
+      </class> <!-- com.crm.maven.MavenCommandPractice -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
